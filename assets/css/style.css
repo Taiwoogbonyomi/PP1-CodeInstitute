@@ -17,9 +17,13 @@ body {
 
 /* Header */
 header {
-    background-color: aquamarine;
-    
+    background-color:blueviolet;
+    padding: 0 1rem;
+    position: fixed;
+
 }
+    
+
 
 /* Main content */
 main {

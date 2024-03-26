@@ -5,17 +5,27 @@
     box-sizing: border-box;
 }
 
-
+/* General styling*/
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    /* General project design*/
+    color: black;
+}
 
 
 /* Header */
 header {
     background-color: aquamarine;
+    
 }
 
 /* Main content */
 main {
-    background-color: azure;
+    background-color: beige;
+    /* Make the main element larger to lower the footer */
+    flex: 1 0 auto;
 }
 
 /* footer */

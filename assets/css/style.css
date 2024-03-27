@@ -20,8 +20,17 @@ header {
     background-color:blueviolet;
     padding: 0 1rem;
     position: fixed;
+    z-index: auto;
+    width: 100%;
+    box-shadow: 0 2px 2px auto;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: baseline;
+
 
 }
+
+
     
 
 
